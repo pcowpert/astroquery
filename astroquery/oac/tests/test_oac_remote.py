@@ -20,11 +20,19 @@ class TestOACClass:
     ra = '09:55:42.12'
     dec = '+69:40:25.9'
     test_coords = coord.SkyCoord(ra=ra, dec=dec, unit=(u.hourangle, u.deg))
+<<<<<<< HEAD
 
     test_radius = 60*u.arcsecond
     test_width = 60*u.arcsecond
     test_height = 60*u.arcsecond
 
+=======
+
+    test_radius = 60*u.arcsecond
+    test_width = 60*u.arcsecond
+    test_height = 60*u.arcsecond
+
+>>>>>>> upstream/master
     test_time = 56680
 
     def test_query_object_csv(self):
